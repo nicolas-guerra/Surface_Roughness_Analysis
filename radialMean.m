@@ -1,4 +1,7 @@
 function [m f] = radialMean(A, fx, fy)
+% Credit: Nakhoda, Kashmira “Prediction of the BRDF with Microfinish Topographer Roughness
+% Measurements” University of Arizona, 2013
+
 %% Definition: radialMean calculates the azimuthal average of a 2D PSD
 %%Input arguments
 % A is the map of size [Ny,Nx] that needs to be azimuthally averaged,
