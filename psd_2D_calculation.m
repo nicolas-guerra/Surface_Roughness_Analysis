@@ -1,4 +1,7 @@
 function [f psdm] =psd_2D_calculation(M1,px,py,lambda)
+% Credit: Nakhoda, Kashmira “Prediction of the BRDF with Microfinish Topographer Roughness
+% Measurements” University of Arizona, 2013
+
 %% Definition:
 %psd_2D_calculation calculates a 2D PSD azimuthally averaged of an isotropic surface
 %map as a function of spatial frequencies.
